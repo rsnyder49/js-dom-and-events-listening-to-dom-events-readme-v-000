@@ -17,7 +17,7 @@ input = document.querySelector('input');
 input.addEventListener('keydown', function(e) {
   if (e.which === 71) {
     console.log('default prevented');
-    alert('Can"t type "g"');
+    alert("Can't type 'g'");
     return e.preventDefault();
   } else {
     console.log('Not a "g"');
